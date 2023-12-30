@@ -3,7 +3,7 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 #
-
+BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
 # Include the common OEM chipset BoardConfig.
 include device/oneplus/sm6375-common/BoardConfigCommon.mk
 
