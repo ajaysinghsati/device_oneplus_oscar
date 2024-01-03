@@ -7,6 +7,13 @@
 # Include the common OEM chipset BoardConfig.
 include device/oneplus/sm6375-common/BoardConfigCommon.mk
 
+# Maintainer name
+RISING_MAINTAINER := "nobiajay"
+
+# PIXEL LAUNCHER && FEATURES
+TARGET_PREBUILT_PIXEL_LAUNCHER := true
+TARGET_ENABLE_PIXEL_FEATURES := true
+
 DEVICE_PATH := device/oneplus/oscar
 
 # Display
